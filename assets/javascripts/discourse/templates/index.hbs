@@ -1,13 +1,22 @@
-<div class="hello-world" style="background-color:aquamarine;">
+<div class="hello-world">
     hello-world.hbs
 </div>
-<div class="hello-world" style="background-color:aquamarine;">
+<div class="hello-world">
     {{cook}}
 </div>
-<div class="hello-world" style="background-color:aquamarine;">
+<div class="hello-world">
     <ul>
         {{#each allcookies as |cookie_man|}}
         <li>Cookie: {{cookie_man}}</li>
         {{/each}}
     </ul>
+</div>
+
+<div class="hello-world">
+    <div class="process-env">dump process.env</div>
+    <ol>
+        {{#each allenv as |aa|}}
+        <li>{{aa}}</li>
+        {{/each}}
+    </ol>
 </div>

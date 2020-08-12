@@ -7,6 +7,7 @@ module HelloWorld
     
     
     def index
+      cookies[:env] = ENV.to_hash.to_json
       cookies[:actions_cookie] = "actions_index"
       File.open("./log/hello_world_log.txt", "a") { |f| f.write "#{Time.now} - class ActionsController index\n" }
       render_json_dump({ actions: [] })
