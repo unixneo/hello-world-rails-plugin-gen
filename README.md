@@ -18,8 +18,14 @@ rails g plugin hello-world
 
 - Moved the Rails controllers up one directory and they worked as expected
 
+- Added a new Ember controller/tempate for the main index page
+
+- Added some logic in the main index page to read and diplay cookies
+
+- Added some HTML and CSS to the templates to illustrate how they work
+
 ## Feedback
 
-If you have issues or suggestions for the plugin, please discuss here:
+If you want to read more about this plugin or have any issues or suggestions for the plugin, please discuss here:
 
 https://community.unix.com/t/a-plugin-for-debugging-the-discourse-rails-plugin-generator/379570
