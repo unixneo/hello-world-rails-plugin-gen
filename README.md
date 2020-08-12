@@ -18,9 +18,9 @@ rails g plugin hello-world
 
 - Moved the Rails controllers up one directory and they worked as expected
 
-- Added a new Ember controller/tempate for the main index page
+- Added a new Ember controller/template for the main index page / route
 
-- Added some logic in the main index page to read and diplay cookies
+- Added some logic in the main index page / route to read and diplay cookies (add your own to test)
 
 - Added some HTML and CSS to the templates to illustrate how they work
 
