@@ -1,0 +1,4 @@
+plugins:
+  hello_world_enabled:
+    default: true
+    client: true
