@@ -26,6 +26,8 @@ rails g plugin hello-world
 
 - Added some cookies set from the Rails controller(s).
 
+- Added Rails and Ember code to dump process.env via a cookie.
+
 ## Feedback
 
 If you want to read more about this plugin or have any issues or suggestions for the plugin, please discuss here:
