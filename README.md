@@ -24,6 +24,8 @@ rails g plugin hello-world
 
 - Added some HTML and CSS to the templates to illustrate how they work.
 
+- Added some cookies set from the Rails controller(s).
+
 ## Feedback
 
 If you want to read more about this plugin or have any issues or suggestions for the plugin, please discuss here:

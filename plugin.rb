@@ -2,9 +2,9 @@
 
 # name: hello-world
 # about: hello-world-rails-plugin-gen is a plugin for debugging the Discourse rails plugin generator
-# version: 0.11
+# version: 0.12
 # authors: Neo
-# url: https://github.com/unixneo
+# url: https://github.com/unixneo/hello-world-rails-plugin-gen.git
 
 register_asset 'stylesheets/common/hello-world.scss'
 register_asset 'stylesheets/desktop/hello-world.scss', :desktop
