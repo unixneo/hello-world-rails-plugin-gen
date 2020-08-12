@@ -22,4 +22,4 @@ rails g plugin hello-world
 
 If you have issues or suggestions for the plugin, please discuss here:
 
-(placeholder for community.unix.com)
+https://community.unix.com/t/a-plugin-for-debugging-the-discourse-rails-plugin-generator/379570
