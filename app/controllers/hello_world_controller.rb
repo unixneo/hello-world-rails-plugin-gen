@@ -3,13 +3,15 @@ module HelloWorld
     requires_plugin 'HelloWorld'
 
     before_action :ensure_logged_in
-
-    def after_initialize
-      File.open("./log/hello_world_log.txt", "a") { |f| f.write "#{Time.now} - Called HelloWorldController after_initialize\n" }
-    end
+    after_action :logit
    
     def index
       File.open("./log/hello_world_log.txt", "a") { |f| f.write "#{Time.now} - Called HelloWorldController Index\n" }
+    end
+
+    private
+    def logit
+      File.open("./log/hello_world_log.txt", "a") { |f| f.write "#{Time.now} - Called HelloWorldController after_action\n" }
     end
   end
 end
